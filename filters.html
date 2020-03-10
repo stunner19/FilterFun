@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Filters Page</title>
+        <script src = "simpleimage.js"></script>
+        <link rel="stylesheet" type="text/css" href="filters.css">
+        <script src = "javascript.js"></script>
+    </head>
+    <body>
+        <h1>Filter Fun</h1>
+        <canvas id = "image"></canvas>
+        <p id = "dimensions"></p>
+        <h2>Upload File</h2>
+        <p>
+            <input type="file" class = "design" multiple="false" accept="image/*" id = "upload" onchange="doupload()">
+        </p>
+        <h2>Select Filter</h2>
+        <p>
+            <input type="button" class = "designcoll" id = "grayscale" onclick="applyGrayscaleFilter()" value="Grayscale">
+            <input type="button" style="margin-right: 10px;" id = "redfilter" onclick="applyRedFilter()" value = "Red Filter">
+            <input type="button" style="margin-right: 10px;" id = "rainbowfilter" onclick="applyRainbowFilter()" value = "Rainbow Filter">
+            <input type="button" style="margin-right: 10px;" id = "blurfilter" onclick="applyBlurFilter()" value = "Blur Filter">
+            <input type="button" style="margin-right: 10px;" id = "reset" onclick="reset()" value="Reset">
+        </p>
+    </body>
+</html>

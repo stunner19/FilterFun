@@ -1,0 +1,39 @@
+body {
+    background-image: url("./images/background.jpg");
+}
+
+canvas {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+input {
+    font-size: 25px;
+}
+
+.design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.designcoll {
+    display: inline;
+    margin-left: 625px;
+    margin-right: 10px;
+}
